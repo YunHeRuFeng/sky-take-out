@@ -16,6 +16,8 @@ import java.util.List;
 /**
  * 分类管理
  */
+
+//@ResponseBody：所有方法返回值直接写入 HTTP 响应体（自动转 JSON）
 @RestController
 @RequestMapping("/admin/category")
 @Api(tags = "分类相关接口")
